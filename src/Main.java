@@ -40,6 +40,7 @@ public class Main {
 
         System.out.println(average);
         System.out.println("Numbers: " + x + "," + y);
+        System.out.println(x);
     }
 }
 
