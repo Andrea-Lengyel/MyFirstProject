@@ -15,18 +15,18 @@ public class Main {
         System.out.println(result);
     }
         public static int sum(int first, int second) {
-        int rez = first + second;
-        return rez;
+        int result = first + second;
+        return result;
         }
         public static int substract(int first, int second) {
-        int rez = first - second;
-        return rez;
+        int result = first - second;
+        return result;
         }
         public static float division(float first, float second) {
         float div = first / second;
         return div;
         }
-        public static int multiply (int first, int second) {
+        public static int multiply(int first, int second) {
         int mult = first * second;
         return mult;
         }
