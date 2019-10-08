@@ -15,12 +15,12 @@ public class Main {
         System.out.println(result);
     }
         public static int sum(int first, int second) {
-        int result = first + second;
-        return result;
+        int rez = first + second;
+        return rez;
         }
         public static int substract(int first, int second) {
-        int result = first - second;
-        return result;
+        int rez = first - second;
+        return rez;
         }
         public static float division(float first, float second) {
         float div = first / second;
