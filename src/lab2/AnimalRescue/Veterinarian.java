@@ -2,19 +2,19 @@ package lab2.AnimalRescue;
 
 public class Veterinarian {
     //String name = "Tim Lukas";
-    private String Dname;
+    private String name;
     public String getDname(){
-        return Dname;
+        return name;
     }
-    public void setDname(String dname){
-        Dname = dname;
+    public void setDname(String name){
+        this.name = name;
     }
     //String specialization = "Animal welfare";
-    private String Spec;
+    private String spec;
     public String getSpec(){
-        return Spec;
+        return spec;
     }
     public void setSpec (String spec){
-        Spec = spec;
+        this.spec = spec;
     }
 }

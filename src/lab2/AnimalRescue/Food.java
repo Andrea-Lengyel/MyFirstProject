@@ -2,35 +2,35 @@ package lab2.AnimalRescue;
 
 public class Food {
     //String name = "Applaws";
-    private String Fname;
+    private String name;
     public String getFname(){
-        return Fname;
+        return name;
     }
     public void setFname (String Name){
-        Fname = Name;
+        this.name = name;
     }
     //float price = 3.7f;
-    private float Price;
+    private float price;
     public float getPrice(){
-        return Price;
+        return price;
     }
     public void setPrice(float price) {
-        Price = price;
+        this.price = price;
     }
     //float quantity = 0.5f;
-    private float Quantity;
+    private float quantity;
     public float getQuantity(){
-        return Quantity;
+        return quantity;
     }
     public void setQuantity(float quantity) {
-        Quantity = quantity;
+        this.quantity = quantity;
     }
     //boolean Availability = true;
-    private boolean Availability;
+    private boolean availability;
     public boolean getAvailability(){
-        return Availability;
+        return availability;
     }
     public void setAvailability(boolean availability){
-   Availability = availability;
+   this.availability = availability;
     }
 }

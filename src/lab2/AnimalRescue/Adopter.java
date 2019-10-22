@@ -2,12 +2,12 @@ package lab2.AnimalRescue;
 
 public class Adopter {
     //String name = "Lara";
-    private String Name;
+    private String name;
     public String getName(){
-        return Name;
+        return name;
     }
     public void setName(String name){
-        Name = name;
+        this.name = name;
     }
     //float Sum = 100.6f;
     private float Sum;

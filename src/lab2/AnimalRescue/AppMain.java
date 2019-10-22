@@ -2,10 +2,6 @@ package lab2.AnimalRescue;
 
 public class AppMain {
     public static void main(String[] args) {
-//        Dog Rex = new Dog();
-//
-//        System.out.println(Rex.name);
-//        Rex.bark();
 
         Animal Dog = new Animal ();
             //Dog.name = "Rex";
@@ -27,7 +23,7 @@ public class AppMain {
             //Dog.stateOfMind = 10;
             Dog.setStateOfMind(10);
             //Dog.FavouriteFood = "Scooby Snack";
-            Dog.setFavouriteFood("Doggie Snack");
+            Dog.setFavouriteFood("Dog Snack");
             //Dog.FavouriteActivity = "Fetching";
             Dog.setFavouriteActivity("Fetch");
 
