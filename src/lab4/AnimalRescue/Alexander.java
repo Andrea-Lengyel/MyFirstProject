@@ -1,15 +1,15 @@
 package lab4.AnimalRescue;
 
 public class Alexander extends Adopter {
-    private String preferredAnimal;
+    private String preferredGender;
     private int agePreference;
 
-    public String getPreferredAnimal() {
-        return preferredAnimal;
+    public String getPreferredGender() {
+        return preferredGender;
     }
 
-    public void setPreferredAnimal(String preferredAnimal) {
-        this.preferredAnimal = preferredAnimal;
+    public void setPreferredGender(String preferredGender) {
+        this.preferredGender = preferredGender;
     }
 
     public int getAgePreference() {

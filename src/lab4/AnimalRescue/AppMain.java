@@ -111,11 +111,11 @@ public class AppMain {
         Alexander Adopt3 = new Alexander ();
         Adopt3.setName("Alexander");
         Adopt3.setSum(230.7f);
-        Adopt3.setPreferredAnimal("dog");
+        Adopt3.setPreferredGender("male");
         Adopt3.setAgePreference(1);
         System.out.println(Adopt3.getName());
         System.out.println(Adopt3.getSum());
-        System.out.println(Adopt3.getPreferredAnimal());
+        System.out.println(Adopt3.getPreferredGender());
         System.out.println(Adopt3.getAgePreference());
 
         Purina Food1 = new Purina ();
