@@ -17,7 +17,12 @@ public class Main {
     Loop.wnumMin(10);
     Loop.wnumCount(7, 5);
     Loop.wnumCountCresc(2,7);
-
+    Loop.wNumCountPar();
+    Loop.wNumCountImpar();
+    Loop.wNumAdd();
+    System.out.println("media: "+ Loop.getAverageFromNumber(3,7));
+    Loop.wNumFibonacci();
+    Loop.cozaLoza();
     }
 
 

@@ -76,7 +76,7 @@ public class LogicalOp {
             i++;
         }
     }
-    //Ex. 3
+    //Ex. 2
     public void wnumMin(int n){
         int i = n;
         while (i >= -100){
@@ -112,8 +112,88 @@ public class LogicalOp {
             }
         }
     }
-
+    //Ex. 5
+    public void wNumCountPar(){
+      int i = 2;
+      while (i <= 100){
+          System.out.println(i);
+          i+=2;
+      }
     }
+    //Ex. 6
+    public void wNumCountImpar(){
+        int i =1;
+        while (i <= 100){
+            System.out.println(i);
+        i+=2;
+        }
+    }
+    //Ex. 7
+    public void wNumAdd(){
+        int x = 111;
+        int y = 1;  //count
+        int Sum = 0;
+        while (x <= 8899){
+            Sum+= x;
+            y++;
+            x++;
+        }
+        System.out.println(Sum/y);
+    }
+    //Ex. 8
+    public int getAverageFromNumber(int x, int y){
+        int sum = 0;
+        int count = 0;
+        while (x <= y){
+            if (x % 7 == 0){
+              sum += x;
+              count++;
+            }
+            x++;
+        }
+       return sum/count;
+    }
+    //Ex. 9
+    public void wNumFibonacci(){
+      int count =1;
+        System.out.println(1);
+        int i = 1;
+        count++;
+        while (count <= 20) {
+            System.out.println(i);
+            count++;
+            i+=i;
+        }
+    }
+    //Ex. 10
+    public void cozaLoza(){
+        int start = 1;
+        int finish = 110;
+        while (start <= finish){
+            if (start % 3 == 0)
+            System.out.print("Coza ");
+            else if (start % 5 == 0)
+            System.out.print("Loza ");
+            else if (start % 7 == 0)
+            System.out.print("Woza ");
+            else if (start % 3 == 0 && start % 5 == 0)
+                System.out.print("CozaLoza ");
+            else if (start % 3 == 0 && start % 7 == 0)
+                System.out.print("CozaWoza ");
+            else if (start % 5 == 0 && start % 7 == 0)
+                System.out.print("WozaLoza ");
+            else if (start % 3 == 0 && start % 5 == 0 && start % 7 == 0)
+                System.out.print("CozaLozaWoza ");
+            else
+                System.out.print(start + " ");
+            if (start % 11 == 0)
+                System.out.println();
+
+            start++;
+        }
+    }
+    }
+
 
 
 
