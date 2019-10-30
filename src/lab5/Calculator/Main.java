@@ -5,8 +5,11 @@ public class Main {
         LogicalOp op = new LogicalOp();
         int[] newArray = op.getArrayHundred();
         int[] anotherOne = {1,2,3,4,5};
-        float[] x = new float[3];
-        x[0] = 1;
+//        float[] x = new float[3];
+//        x[0] = 1;
+
+        int[] finalArray = op.removeNumberFromArray( 5, anotherOne);
+
         op.printArray(newArray);
         System.out.println(op.averageArray(newArray));
 
@@ -49,6 +52,9 @@ public class Main {
 
         //Ex. 7
         op.returnChar();
+
+        //Ex. 8
+
     }
 
 }
