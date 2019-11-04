@@ -17,4 +17,11 @@ public class Veterinarian {
     public void setSpec (String spec){
         this.spec = spec;
     }
+
+    public void emergencyAvailability(){
+        System.out.println("No");
+    }
+    public void clinicAddress(){
+        System.out.println("T. Mosoiu Street No. 12 (downtown)");
+    }
 }

@@ -10,4 +10,12 @@ public class Activity {
     public void setActiv(String Name){
         Activ = Name;
     }
+
+        public void interaction(){
+            System.out.println("Other anilmals");
+        }
+
+        public void energyReleaseLevel(){
+            System.out.println("None");
+        }
 }

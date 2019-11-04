@@ -4,7 +4,7 @@ public class AppMain {
     public static void main(String[] args) {
 
 
-            Dog Rex = new Dog();
+            Dog Rex = new Dog ();
             Rex.setName("Rex");
             Rex.setColor("White");
             Rex.setBreed("Terrier");
@@ -28,7 +28,7 @@ public class AppMain {
         System.out.println(Rex.getStateOfMind());
         System.out.println(Rex.getFavouriteFood());
         System.out.println(Rex.getFavouriteActivity());
-        Rex.bark();
+        Rex.sound();
         Rex.setCollarColor("red");
         System.out.println(Rex.getCollarColor());
 
@@ -60,7 +60,7 @@ public class AppMain {
         Pufy.sound();
         Pufy.setPurr(true);
 
-        Lizard Doby = new Lizard();
+        Lizard Doby = new Lizard ();
         Doby.setName("Doby");
         Doby.setColor("Green");
         Doby.setBreed("Gecko");
@@ -97,7 +97,7 @@ public class AppMain {
         System.out.println(Adopt1.getSum());
         System.out.println(Adopt1.getAnimalPreference());
 
-        Mircea Adopt2 = new Mircea ();
+        Mircea Adopt2 = new Mircea();
         Adopt2.setName("Mircea");
         Adopt2.setSum(120.5f);
         Adopt2.setPreferredSpecie("Gecko Dragon");
@@ -108,7 +108,7 @@ public class AppMain {
         System.out.println(Adopt2.getPreferredSpecie());
         System.out.println(Adopt2.getPreferredSize());
 
-        Alexander Adopt3 = new Alexander ();
+        Alexander Adopt3 = new Alexander();
         Adopt3.setName("Alexander");
         Adopt3.setSum(230.7f);
         Adopt3.setPreferredGender("male");
@@ -118,7 +118,7 @@ public class AppMain {
         System.out.println(Adopt3.getPreferredGender());
         System.out.println(Adopt3.getAgePreference());
 
-        Purina Food1 = new Purina();
+        Purina Food1 = new Purina ();
         Food1.setFname("Purina Dog");
         Food1.setPrice(4.5f);
         Food1.setQuantity(7.9f);
@@ -146,7 +146,7 @@ public class AppMain {
         System.out.println(Food2.getMeatPercent());
         System.out.println(Food2.getPreferredFood());
 
-        OmnivoreMix Food3 = new OmnivoreMix ();
+        OmnivoreMix Food3 = new OmnivoreMix();
         Food3.setFname("Lizard Food");
         Food3.setPrice(1.6f);
         Food3.setQuantity(2.2f);
@@ -159,17 +159,17 @@ public class AppMain {
         System.out.println(Food3.getAvailability());
         System.out.println(Food3.getContent());
 
-        Training Activity1 = new Training ();
+        Training Activity1 = new Training();
         Activity1.setTrainingLevel(7);
         Activity1.setActiv("Training");
         System.out.println(Activity1.getActiv() + ' ' + Activity1.getTrainingLevel());
 
-        Purring Activity2 = new Purring ();
+        Purring Activity2 = new Purring();
         Activity2.setPurrLevel(10);
         Activity2.setActiv("Purr");
         System.out.println(Activity2.getActiv() + ' ' + Activity2.getPurrLevel());
 
-        Crawl Activity3 = new Crawl();
+        Crawl Activity3 = new Crawl ();
         Activity3.setCrawlSpeed(1.1f);
         Activity3.setActiv("Crawl");
         System.out.println(Activity3.getActiv() + ' ' + Activity3.getCrawlSpeed());

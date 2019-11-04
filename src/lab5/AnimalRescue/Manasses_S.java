@@ -10,4 +10,12 @@ public class Manasses_S extends Veterinarian {
     public void setAnimalcategory(String animalcategory) {
         this.animalcategory = animalcategory;
     }
+
+    public void emergencyAvailability() {
+        System.out.println("Yes");
+    }
+
+    public void clinicAddress() {
+        System.out.println("Donath Street No. 7");
+    }
 }

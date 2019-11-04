@@ -10,4 +10,12 @@ public class Andrea extends Adopter {
     public void setAnimalPreference(String animalPreference) {
         this.animalPreference = animalPreference;
     }
+
+    public void otherPets() {
+        System.out.println("Cat");
+    }
+
+    public void volunteer() {
+        System.out.println("Animal shelter");
+    }
 }

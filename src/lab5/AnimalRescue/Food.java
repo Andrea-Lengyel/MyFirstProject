@@ -33,4 +33,15 @@ public class Food {
     public void setAvailability(boolean availability){
         this.availability = availability;
     }
+
+    public void meatType(){
+        System.out.println("Poultry");
+    }
+    public void vitContent (){
+        System.out.println("Vitamin A");
+    }
+    public void specificIngredient(){
+        System.out.println("Ash");
+    }
+
 }

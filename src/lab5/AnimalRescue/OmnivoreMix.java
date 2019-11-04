@@ -10,4 +10,16 @@ public class OmnivoreMix extends Food {
     public void setContent(String content) {
         this.content = content;
     }
+
+    public void meatType() {
+        System.out.println("Meal worm");
+    }
+
+    public void specificIngredient() {
+        System.out.println("Dried vegetable mix");
+    }
+
+    public void vitContent() {
+        System.out.println("Vitamin A & C");
+    }
 }

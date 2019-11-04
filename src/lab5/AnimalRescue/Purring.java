@@ -10,4 +10,12 @@ public class Purring extends Activity {
     public void setPurrLevel(int purrLevel) {
         this.purrLevel = purrLevel;
     }
+
+    public void interaction() {
+        System.out.println("With owner");
+    }
+
+    public void energyReleaseLevel() {
+        System.out.println("Maximum");
+    }
 }

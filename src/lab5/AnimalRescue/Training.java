@@ -10,4 +10,12 @@ public class Training extends Activity {
     public void setTrainingLevel(int trainingLevel) {
         this.trainingLevel = trainingLevel;
     }
+
+    public void energyReleaseLevel() {
+        System.out.println("Maximum");
+    }
+
+    public void interaction() {
+        System.out.println("With trainer and other animals");
+    }
 }

@@ -20,4 +20,12 @@ public class Nuevo extends Food {
     public void setPreferredFood(String preferredFood) {
         this.preferredFood = preferredFood;
     }
+
+    public void meatType() {
+        System.out.println("Fish");
+    }
+
+    public void vitContent() {
+        System.out.println("Omega 3");
+    }
 }

@@ -28,4 +28,8 @@ public class Zsigmond_Z extends Veterinarian {
     public void setAnimalSpecialisation(String animalSpecialisation) {
         this.animalSpecialisation = animalSpecialisation;
     }
+
+    public void emergencyAvailability() {
+        System.out.println("Yes");
+    }
 }

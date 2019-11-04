@@ -14,7 +14,6 @@ public class Cat extends Animal {
     public void setPurr(boolean purr) {
         this.purr = purr;
     }
-
     public void favToy(){
         System.out.println("Mouse on string");
     }

@@ -10,4 +10,8 @@ public class Sabin_S extends Veterinarian {
     public void setVaccinationPrice(int vaccinationPrice) {
         this.vaccinationPrice = vaccinationPrice;
     }
+
+    public void clinicAddress() {
+        System.out.println("Borhanci Street No. 55");
+    }
 }

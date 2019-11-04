@@ -10,4 +10,11 @@ public class Crawl extends Activity {
     public void setCrawlSpeed(float crawlSpeed) {
         this.crawlSpeed = crawlSpeed;
     }
+
+    public void energyReleaseLevel() {
+        System.out.println("Minimum");
+    }
+    public void interaction() {
+        System.out.println("Environmental elements");
+    }
 }

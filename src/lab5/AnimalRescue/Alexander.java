@@ -19,4 +19,11 @@ public class Alexander extends Adopter {
     public void setAgePreference(int agePreference) {
         this.agePreference = agePreference;
     }
+
+    public void otherPets() {
+        System.out.println("Turtle");
+    }
+    public void volunteer() {
+        System.out.println("Animal Clinic technician");
+    }
 }
